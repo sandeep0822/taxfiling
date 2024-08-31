@@ -1,0 +1,6 @@
+/* tr td:last-child{
+    display: none;
+} */
+.tax_filing .card .body label::after{
+    content: "" !important;
+}

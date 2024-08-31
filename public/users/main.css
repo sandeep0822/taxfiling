@@ -1,0 +1,121 @@
+/* navbar_header */
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active{
+    background: rgba(97, 97, 97, 0.2) !important;
+    border-radius: 5px;
+}
+/* irs-line */
+.irs-min,.irs-max{
+    visibility: hidden !important;
+}
+.irs-single{
+    visibility: hidden !important;
+}
+/* header part */
+.header_part{
+    padding: 20px;
+    border-bottom: 1px solid rgb(164, 164, 164);
+}
+/* .header_part .card{
+    border: 1px solid rgb(164, 164, 164);
+} */
+.header_part .card .callcenter{
+    border-radius: 50%;
+    height: 62px;
+}
+.header_part .adviser .col{
+    padding-left: 20px !important;
+    text-align: left !important;
+    padding: 5px;
+}
+.header_part .adviser .col h5{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    animation: blink 1s linear infinite;
+}
+.header_part .adviser .col h5:last-child{
+    animation: none ;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }
+.header_part .adviser .col h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.header_part .row .col{
+    text-align: center;
+}
+/* list users */
+.list_users{
+    padding-top: 10px;
+}
+.list_users .card{
+    border: 1px  solid rgb(164, 164, 164);
+}
+.list_users .card .card-header{
+    padding-top: 10px;
+    border-bottom: 1px  solid rgb(164, 164, 164);
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #e5ebee;
+}
+.list_users .card .card-body{
+    font-size: 16px;
+    color: #026ca5;
+    line-height: 30px;
+}
+/* tax_filing */
+.tax_filing{
+    padding-top: 10px;
+}
+.tax_filing .card .header{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.tax_filing .card .body{
+    padding: 30px;
+}
+.tax_filing .card .body label{
+     font-weight: 500;
+}
+.tax_filing .card .body label::after{
+    content: ":";
+}
+.tax_filing .card .body .col{
+    display: flex;
+    align-items: center;
+}
+.tax_filing .card .body .form-control{
+    border: 1px  solid  rgba(123, 123, 123, 0.7);
+}
+.tax_filing .card .header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.required{
+    color: #ff0000;
+    font-size: 18px;
+}
+.header_txt{
+    font-weight: bold;
+}
+.user_dashboard .nav-icon{
+    font-size: 3rem;
+}
+.refer-earn-header{
+    animation: blink 2s infinite;
+}
+.toast-body {
+    width: 350px !important;
+    padding: 0.75rem;
+}
